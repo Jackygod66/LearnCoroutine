@@ -5,6 +5,10 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import com.example.learncoroutine.databinding.ActivityMainBinding
 
+/**
+ * @author Jacky
+ * @date 2023/7/31
+ */
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val countViewModel: CountViewModel by viewModels()
