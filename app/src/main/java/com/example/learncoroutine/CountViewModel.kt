@@ -9,7 +9,7 @@ import java.text.DecimalFormat
 
 /**
  * ViewModel
- * 用于倒计时的ViewModel
+ * 用于倒计时的ViewModel，精确到小数点后两位
  */
 class CountViewModel: ViewModel() {
 
