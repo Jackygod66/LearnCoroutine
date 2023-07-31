@@ -7,6 +7,10 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.*
 import java.text.DecimalFormat
 
+/**
+ * ViewModel
+ * 用于倒计时的ViewModel
+ */
 class CountViewModel: ViewModel() {
 
     private val _countdownTime = MutableLiveData<Double>()
